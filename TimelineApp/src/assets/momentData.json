@@ -1,0 +1,30 @@
+[
+    {
+        "date":"2023-07-24",
+        "title": "Powering through development.",
+        "description": "In need of some inspiration, or even better, discipline.",
+        "details": "Late night coding session , 3 days till BIG DUB (the local rave). Hopefully that'll give me the inspiration I need.",
+        "user_id": "2"
+    },
+    {
+        "date":"2023-05-19",
+        "title": "The First Idea.",
+        "description": "The day I thought of the app.",
+        "details": "Everybody would like to be a part of history, is the first idea that started the App.",
+        "user_id": "2" 
+    },
+    {
+        "date":"2023-05-23",
+        "title": "The next Monday.",
+        "description": "I started thinking about what the UI would look like. A long line representing your path in history, with clickable points along the line.",
+        "details": "N/A",
+        "user_id": "2" 
+    },
+    {
+        "date":"2023-05-24",
+        "title": "I had an interview today",
+        "description": "Trying to get a job in the field",
+        "details": "N/A",
+        "user_id": "2" 
+    }
+]

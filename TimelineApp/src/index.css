@@ -1,0 +1,165 @@
+/* pallette  9B1D20 3D2B3D 635D5C CBEFB6 D0FFCE*/
+
+body {
+  background-color: rgb(237, 255, 235);
+}
+
+#navbar {
+  padding-inline-start: 20px;
+  background-color: rgb(237, 255, 235);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.navbar-items {
+  margin-right: 40px;
+  list-style: none;
+  color: #2b9348;
+  font-size: 25px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+section {
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
+}
+
+#title-section {
+  padding-inline-start: 20px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: rgb(237, 255, 235);
+  font-family: sans-serif;
+}
+
+#login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+#signup-form {
+  display: flex;
+  flex-direction: column;
+}
+
+#post-form,
+#moment-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-item {
+  width: 20%;
+}
+
+#submit-button {
+  width: 20.5%;
+}
+
+.links {
+  color: brown;
+  text-decoration: underline;
+}
+
+.delete-btn {
+  padding: 5px;
+  margin-left: 20px;
+  border-radius: 10px;
+  border-color: red;
+  color: red
+}
+
+#new-post-btn {
+  margin-left: 15px;
+  padding: 5px;
+  border-radius: 10px;
+  border-color: #55a630;
+  color: #55a630;
+}
+
+a {
+  text-decoration: none;
+  color: #55a630;
+}
+
+.row-mb-4 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-style: solid;
+  border-color: #55a630;
+  border-radius: 2rem;
+  margin: 15px;
+}
+
+.titlebox {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(237, 255, 235);
+  margin: -3px 0 0 0;
+  border-radius: 6rem 6rem 0 0;
+}
+
+.titletext {
+  margin: 5px;
+  color: #2b9348;
+}
+
+#post-btn-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1{
+  font-size: 72px;
+  background: -webkit-linear-gradient(#55a630, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h3 {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 5px;
+}
+
+h4 {
+  margin: 5px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+a:visited {
+  color: #55a630;
+}
+
+.username {
+  font-size: 20px;
+  color: #2b9348;
+}
+
+#comment-box {
+  border-style: solid;
+  border-color: black;
+  margin: 10px 0px 10px 2px;
+}
+
+.header {
+  font-size: 30px;
+  margin-left: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  color: #2b9348;
+}
+
+.title,
+.description,
+.details,
+.date {
+  color: #80b918;
+}
