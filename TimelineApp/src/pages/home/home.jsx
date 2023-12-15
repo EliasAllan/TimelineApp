@@ -1,5 +1,7 @@
 import './timeline.css'
 import moments from '../../assets/momentData.json'
+import Timeline from '../../components/timeline';
+
 function Home() {
   
     return (
@@ -19,6 +21,7 @@ function Home() {
 
     <div class="timeline-wrapper">
       <ul class="timeline">
+        <Timeline/>
         {/* {{#each moments as |moment| }}
         <li data-date="{{moment.date}}">
           <span class="title">{{moment.title}}</span>
