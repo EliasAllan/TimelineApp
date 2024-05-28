@@ -127,6 +127,8 @@ h3 {
   display: flex;
   justify-content: space-evenly;
   margin: 5px;
+  flex-direction: column;
+  align-items: center;
 }
 
 h4 {
