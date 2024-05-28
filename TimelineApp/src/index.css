@@ -16,7 +16,7 @@ body {
 .navbar-items {
   margin-right: 40px;
   list-style: none;
-  color: #2b9348;
+  color: #007FFF;
   font-size: 25px;
   font-family: sans-serif;
   font-weight: bold;
@@ -118,7 +118,7 @@ a {
 
 h1{
   font-size: 72px;
-  background: -webkit-linear-gradient(#55a630, #333);
+  background: -webkit-linear-gradient(#007FFF, #333);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

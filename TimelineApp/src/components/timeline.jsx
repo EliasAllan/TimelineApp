@@ -210,6 +210,7 @@ const Timeline = () => {
     {
       title: "May 1940",
       cardTitle: "Dunkirk",
+      
       url: "http://www.history.com",
       cardSubtitle:
         "Men of the British Expeditionary Force (BEF) wade out to..",
@@ -225,7 +226,7 @@ const Timeline = () => {
   ];
   return (
     <div style={{ width: "100vw", height: "100vw" }}>
-      <Chrono items={items} />
+      <Chrono items={items} enableDarkToggle={true} lineWidth={3}/>
     </div>
   );
 };
