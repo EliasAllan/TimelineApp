@@ -1,7 +1,7 @@
 import React from 'react';
 import './timelineStyle.css'
 import moments from '../../assets/momentData.json'
-import Timeline from '../../components/timeline.jsx';
+import Timeline from '../../components/Timeline/timeline.jsx';
 
 function TimelinePage() {
   
