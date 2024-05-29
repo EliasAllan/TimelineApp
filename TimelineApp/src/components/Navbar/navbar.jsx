@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink, Link } from "react-router-dom";
 
 function Navbar() {
   
@@ -8,18 +9,21 @@ function Navbar() {
     <header>
         <nav>
             <ul id = "navbar">
-                <li class = "navbar-items">
+                <li className = "navbar-items">
                     Home
                 </li>
-                <li class = "navbar-items">
+                <li className = "navbar-items">
                     Dashboard
                 </li>
-                <li class = "navbar-items">
+                <li className = "navbar-items">
                     Login
                 </li>
-                <li class = "navbar-items">
+                <li className = "navbar-items">
                     Logout
                 </li>
+                <Link to="/timelinePage" className = "navbar-items">
+                    Timeline
+                </Link>
             </ul>
         </nav>
         <section id="title-section">

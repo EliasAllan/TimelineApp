@@ -8,8 +8,8 @@ import HomePage from "./pages/HomePage/homePage.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <Navbar/>
     <Router>
+    <Navbar/>
     <Routes>
     <Route path="/" element={<HomePage />} />
     <Route path="/timelinePage" element={<TimelinePage />} />
