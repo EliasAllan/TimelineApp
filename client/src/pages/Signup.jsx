@@ -1,14 +1,18 @@
 import React from "react";
 import { useForm } from "react-hook-form";
 import { NavLink, Link } from "react-router-dom";
+import { useMutation } from '@apollo/client';
+import { ADD_USER } from '../utils/mutations';
 
 export default function App() {
+  
   const {
     register,
     handleSubmit,
     formState: { errors },
   } = useForm();
   const onSubmit = (data) => console.log(data);
+
   console.log(errors);
 
   return (
