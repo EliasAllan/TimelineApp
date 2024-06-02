@@ -166,3 +166,9 @@ a:visited {
 .date {
   color: #80b918;
 }
+
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

@@ -9,18 +9,18 @@ function Navbar() {
     <header>
         <nav>
             <ul id = "navbar">
-                <li className = "navbar-items">
+            <Link to="/" className = "navbar-items">
                     Home
-                </li>
-                <li className = "navbar-items">
+                </Link>
+                <Link to="/dashboard" className = "navbar-items">
                     Dashboard
-                </li>
-                <li className = "navbar-items">
+                </Link>
+                <Link to="/login" className = "navbar-items">
                     Login
-                </li>
-                <li className = "navbar-items">
+                </Link>
+                {/* <Link to="/login" className = "navbar-items">
                     Logout
-                </li>
+                </Link> */}
                 <Link to="/timelinePage" className = "navbar-items">
                     Timeline
                 </Link>
