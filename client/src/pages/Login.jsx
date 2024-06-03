@@ -12,7 +12,31 @@ export default function App() {
     handleSubmit,
     formState: { errors },
   } = useForm();
-  const onSubmit = (data) => console.log(data);
+  const onSubmit = async (data) => {
+    try {
+      const response = await fetch('http://localhost:5173/api/users/addUser', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(data),
+      });
+  
+      const result = await response.json();
+      console.log(result);
+  
+      if (response.ok) {
+        // Handle successful user creation (e.g., redirect or display a message)
+        console.log('User created successfully');
+      } else {
+        // Handle errors (e.g., display error messages)
+        console.error(result.message);
+      }
+    } catch (error) {
+      console.error('Error:', error);
+    }
+    console.log(data);
+  }
   console.log(errors);
 
 
