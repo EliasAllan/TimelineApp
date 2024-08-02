@@ -1,18 +1,20 @@
 // Import express
 const express = require('express');
 // Import the Apollo Server from the newer package
+
 const { ApolloServer } = require('@apollo/server');
 const { expressMiddleware } = require('@apollo/server/express4');
 const path = require('path');
 const { authMiddleware } = require('./utils/auth');
 
-// Import the two parts of GraphQL schema
+// // Import the two parts of GraphQL schema
 const { typeDefs, resolvers } = require('./schemas');
 const db = require('./config/connection');
 
 const PORT = process.env.PORT || 5173;
 const app = express();
 
+app.use(express.json());
 // Create a new instance of an Apollo server with the GraphQL schema
 const server = new ApolloServer({
   typeDefs,
@@ -30,7 +32,6 @@ const startApolloServer = async () => {
 
   // Express middlewares
   app.use(express.urlencoded({ extended: false }));
-  app.use(express.json());
 
   // Serve static assets in production
   if (process.env.NODE_ENV === 'production') {
